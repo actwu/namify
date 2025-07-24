@@ -2,7 +2,7 @@
 
 # Namify
 
-**Namify** is a sample project demonstrated during the **A-SYS Webinar** on **July 25, 2025, 2:00 PM**, focused on **AI and System Making**.
+[**Namify**](https://actwu.github.io/namify/) is a sample project demonstrated during the **A-SYS Webinar** on **July 25, 2025, 2:00 PM**, focused on **AI and System Making**.
 
 ## Overview
 
