@@ -24,6 +24,7 @@ One student (**Nai**)  took the initiative to design a system that solves this p
 
 ## Use Case
 
+<img width="1345" height="607" alt="Screenshot From 2025-07-24 21-39-16" src="https://github.com/user-attachments/assets/4c60c8e6-da5c-4b5e-a624-4c1f9c309a5c" />
 Ideal for educators, event organizers, administrative staff, or any user who regularly manages lists of names and needs to sort and summarize them quickly.
 
 ## Technology
