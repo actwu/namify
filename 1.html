@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<meta 
+name="viewport" 
+content="
+width=device-width, 
+initial-scale=1.0
+">
+
+<load>
+<link rel="preload" href="ui.css">
+<link rel="preload" href="system.js">
+</load>
+
+<ui>
+<link rel="stylesheet" href="ui.css">
+</ui>
+
+<title>Namify</title>
+
+
+
+<screen step="input" show>
+
+<col>
+<textarea placeholder="Type names here
+- Tap to process"></textarea>
+</col>
+<row>
+<button onmousedown="">Process</button>
+</row>
+</screen>
+
+<screen step="output">
+<col>
+<list></list>
+</col>
+
+<row>
+<button onmousedown="">Back</button>
+<button onmousedown="">Save</button>
+</row>
+</screen>
+
+<run>
+<script src="system.js"></script>
+</run>
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- 
+     By Nai
+    -->
+
+<title>Namify</title>
+<meta name="description" content="A system to organize names and process it.">
+<meta name="keywords" content="System, Names, Process">
+<meta name="author" content="Actwu">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<link rel="icon" href="https://ise.web.app/fa/10.png">
+<link rel="canonical" href="https://actwu.github.io/namify">
+<meta property="og:title" content="Namify">
+<meta property="og:description" content="A system to organize names and process it.">
+<meta property="og:image" content="">
+<meta property="og:url" content="https://actwu.github.io/namify">
+<meta property="og:type" content="">
+<meta property="og:site_name" content="Namify">
+<meta property="og:locale" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Namify">
+<meta name="twitter:description" content="A system to organize names and process it.">
+<meta name="twitter:image" content="">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+
+<meta name='google-site-verification' content=''>
+<meta name='msvalidate.01' content=''>
+
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Namify","url":"https://actwu.github.io/namify","logo":"https://ise.web.app/fa/10.png","description":"A system to organize names and process it."}</script>
+
+
+</head>
+<meta charset="UTF-8">
+
+<meta 
+name="viewport" 
+content="
+width=device-width, 
+initial-scale=1.0
+">
+
+<load>
+<link rel="preload" href="ui.css">
+<link rel="preload" href="system.js">
+</load>
+
+<ui>
+<link rel="stylesheet" href="ui.css">
+</ui>
+
+<title>Namify</title>
+
+
+
+<screen step="input" show>
+
+<col>
+<textarea placeholder="Type names here
+- Tap to process"></textarea>
+</col>
+<row>
+<button onmousedown="process()">Process</button>
+</row>
+</screen>
+
+<screen step="output">
+<col>
+<list></list>
+</col>
+
+<row>
+<button onmousedown="
+select('screen[step=input]').toggleAttribute('show')
+select('screen[step=output]').toggleAttribute('show','')
+">Back</button>
+<button onmousedown="save()">Save</button>
+</row>
+</screen>
+
+<run>
+<script src="system.js"></script>
+</run>
+
+</html>
